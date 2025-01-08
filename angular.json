@@ -13,8 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": {
-              "base": "release/"
+            "outputPath":   {
+              "base": "release/todo",
+              "browser": ""
             },
             "index": "src/index.html",
             "browser": "src/main.ts",

@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --disable-host-check",
-    "build": "ng build",
+    "build": "ng build --base-href='https://skresource.github.io/elegant-wave/'",
+    "deploy:hosting": "npx angular-cli-ghpages --dir=release/todo --branch hosting",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
